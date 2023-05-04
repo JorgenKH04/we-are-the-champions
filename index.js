@@ -107,5 +107,5 @@ function appendToEndorsements(value) {
   <li>${personEndorsement}<li>
   <li class="bold">From ${personFrom}<li>`;
 
-  test.append(newEl);
+  test.prepend(newEl);
 }
